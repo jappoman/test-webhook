@@ -1,0 +1,17 @@
+meta {
+  name: test-webhook
+  type: http
+  seq: 2
+}
+
+post {
+  url: https://bfasubvgzl.execute-api.eu-west-1.amazonaws.com/prod/test-webhook
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "test_field": "Hello Webhook"
+  }
+}
