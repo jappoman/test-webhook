@@ -1,0 +1,21 @@
+meta {
+  name: /DeviceLatestDataById
+  type: http
+  seq: 5
+}
+
+get {
+  url: https://api.trakkem.pro/v1/DeviceLatestDataById?latestId=9012345&deviceIdentifier=88000123456789
+  body: none
+  auth: inherit
+}
+
+params:query {
+  latestId: 9012345
+  deviceIdentifier: 88000123456789
+}
+
+headers {
+  accept: text/plain
+  apiKey: hs7687kas-0st56ba3a09rw2sx78wn-s6
+}

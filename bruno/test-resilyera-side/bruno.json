@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "api-resilyera-side",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
